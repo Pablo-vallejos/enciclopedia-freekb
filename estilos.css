@@ -1,0 +1,201 @@
+body {
+    background-image: url(assets/Canva%20-%20Library%20Filled%20With%20Bookcases.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+
+.texto {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+
+}
+
+.titulos {
+    text-decoration: underline;
+    border: 0.5px;
+    border-style: groove;
+    border-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.textoCategoria {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 10px;
+
+}
+
+
+.footer {
+    padding: 10px;
+}
+
+.footer li {
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+.footer li.mail {
+    font-size: 13px;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.footer col li {
+    border-right: white;
+
+}
+
+.footer i {
+    font-size: 25px;
+}
+
+.footer a:hover {
+    color: #495057;
+}
+
+.jumbo {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.mail {
+    background-color: #343a40;
+    color: #6c757d;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+.mail:hover {
+    background-color: #495057;
+}
+
+.pills {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.carusel figcaption {
+    color: white;
+}
+
+
+
+#notas {
+    color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background: rgba(235, 235, 235, 0.2);
+
+
+
+}
+
+.notas {
+    background-color: #16bf36;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+
+
+@media (min-width:992px) {
+
+
+    .footer {
+        padding: 30px;
+
+    }
+
+
+
+    .footer li {
+        display: inline-block;
+        color: #6c757d;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+
+    .footer a:hover {
+        color: #495057;
+    }
+
+
+    #notas {
+        color: white;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background: rgba(216, 205, 205, 0.35);
+    }
+
+    .notas {
+        background-color: #16bf36;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        width: 100px;
+        margin-left: 10px;
+    }
+
+
+    .textoCategoria {
+        background: rgba(0, 0, 0, 0.85);
+        color: white;
+        border: 2px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 10px;
+
+    }
+
+    .titulos {
+        width: 40%;
+    }
+
+    .texto {
+        width: 75%;
+    }
+    
+    .youtube {
+        width: 40%;
+        
+        
+    }
+    
+    
+    
+}
